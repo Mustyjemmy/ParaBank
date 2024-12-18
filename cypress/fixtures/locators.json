@@ -1,0 +1,35 @@
+{
+    "register": "#loginPanel > :nth-child(3) > a",
+    "username": "input[name='customer.username']",
+    "password": "input[name='customer.password']",
+    "confirmPassword": "input[name='repeatedPassword']",
+    "firstName": "input[name='customer.firstName']",
+    "lastName": "input[name='customer.lastName']",
+    "street": "input[name='customer.address.street']",
+    "city": "input[name='customer.address.city']",
+    "state": "input[name='customer.address.state']",
+    "zipCode": "input[name='customer.address.zipCode']",
+    "phoneNumber": "input[name='customer.phoneNumber']",
+    "ssn": "input[name='customer.ssn']",
+    "submit": "input[value='Register']",
+    "loginUsername": "input[name='username']",
+    "loginpassword": "input[name='password']",
+    "loginBtn": "input[value='Log In']",
+    "openAccount": "#leftPanel > ul > :nth-child(1) > a",
+    "acctType": "select option:nth-of-type(2)",
+    "payerAcct": "#fromAccountId",
+    "submitOpenAcct": "input[value='Open New Account']",
+    "requestLoan": "#leftPanel > ul > :nth-child(7) > a",
+    "loanAmount": "#amount",
+    "downPayment": "#downPayment",
+    "fromAccount": "#fromAccountId",
+    "ApplyBtn": "input[value='Apply Now']",
+    "transferFunds": "#leftPanel > ul > :nth-child(3) > a",
+    "amount": "#amount",
+    "recipient": "#toAccountId option:nth-child(2)",
+    "transferBtn": "input[value='Transfer']",
+    "transferSuccess": "#showResult"
+
+
+    
+}
